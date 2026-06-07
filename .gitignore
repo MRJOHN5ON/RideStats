@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+# APKs go on GitHub Releases, not in git
+*.apk
+*.aab
+*.aab
+*.keystore
+*.jks
+.env
+.env.*
