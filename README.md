@@ -57,7 +57,7 @@ Start a session, lock your phone, and ride. RideStats keeps logging G-forces in 
 
 RideStats is not on the Play Store. Sideload the APK from [Releases](https://github.com/MRJOHN5ON/RideStats/releases/latest).
 
-1. Download **`app-release.apk`**
+1. Download **`RideStats-1.0.0.apk`**
 2. Open the file → **Install** (if blocked, allow installs from your browser or Files app in Android settings)
 3. Before your first ride: **Settings → Pocket Recording Setup** — allow notifications and unrestricted battery
 
