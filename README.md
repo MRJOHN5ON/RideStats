@@ -13,11 +13,13 @@
   <img src="https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square" alt="Android" />
   <img src="https://img.shields.io/badge/built%20with-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/privacy-local--only-28D7FF?style=flat-square" alt="Local only" />
-  <img src="https://img.shields.io/badge/latest-1.1.1-8B9BB0?style=flat-square" alt="v1.1.1" />
+  <img src="https://img.shields.io/badge/latest-1.1.2-8B9BB0?style=flat-square" alt="v1.1.2" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1"><strong>Download v1.1.1</strong></a>
+  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.2"><strong>Download v1.1.2</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1">Download v1.1.1</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.0">Download v1.1.0</a>
   &nbsp;·&nbsp;
@@ -44,13 +46,14 @@ RideStats is not on the Play Store. Sideload an APK from GitHub Releases.
 
 | Version | APK | Notes |
 |--------|-----|-------|
-| **1.1.1** (latest) | [`RideStats-1.1.1.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1) | Airtime accuracy fix — peak duration, fewer false positives at rest |
+| **1.1.2** (latest) | [`RideStats-1.1.2.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.2) | Clearer force timeline labels — Up/down, Sides, Fwd/back |
+| **1.1.1** | [`RideStats-1.1.1.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1) | Airtime accuracy fix — peak duration, fewer false positives at rest |
 | **1.1.0** | [`RideStats-1.1.0.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.0) | Directional G-forces, negative G, GPS speed, inversion count |
 | **1.0.0** | [`RideStats-1.0.0.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.0.0) | Original release — peak G logging and ride history |
 
 **Install steps**
 
-1. Download **`RideStats-1.1.1.apk`** (latest) or an older version from the table above — release files are always named `RideStats-<version>.apk`
+1. Download **`RideStats-1.1.2.apk`** (latest) or an older version from the table above — release files are always named `RideStats-<version>.apk`
 2. Open the file → **Install** (if blocked, allow installs from your browser or Files app in Android settings)
 3. Before your first ride: **Settings → Pocket Recording Setup** — allow notifications and unrestricted battery
 
@@ -65,6 +68,19 @@ Demo build — no warranty. G-force and speed readings are phone-sensor estimate
 ---
 
 ## Release notes
+
+### v1.1.2
+
+**Clearer ride report**
+
+- Force timeline toggle uses plain labels — **Up/down**, **Sides**, **Fwd/back** instead of Vert/Lat/Long
+- Short description under the toggle explains what each view shows
+- Peak badges read naturally — e.g. **Heaviest 4.2G**, **Strongest sway ±2.1G**
+- Report stats renamed for clarity — **Lightest moment**, **Side sway peak**
+
+> **Upgrading from 1.1.1?** No data reset — install over your existing app.
+
+---
 
 ### v1.1.1
 
@@ -138,7 +154,7 @@ Start a session, lock your phone, and ride. RideStats keeps logging in the backg
 
 ## Ride report
 
-After a ride you get peak G, stats, a force timeline, optional rating and notes, and a comparison against catalog reference estimates. v1.1 adds directional G axes, negative G, inversion count, and optional speed data.
+After a ride you get peak G, stats, a force timeline, optional rating and notes, and a comparison against catalog reference estimates. Toggle **Up/down**, **Sides**, or **Fwd/back** on the timeline to see different forces on the ride.
 
 <p align="center">
   <img src="./media/screenshots/ride-report1.jpg" alt="Ride report — peak and stats" width="300" />
