@@ -19,12 +19,6 @@
 <p align="center">
   <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.2"><strong>Download v1.1.2</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1">Download v1.1.1</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.0">Download v1.1.0</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.0.0">Download v1.0.0</a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/MRJOHN5ON/RideStats/releases">All releases</a>
 </p>
 
@@ -40,20 +34,17 @@ The app ships with the **Six Flags Magic Mountain** coaster catalog. RideStats i
 
 ---
 
-## Downloads
+## Download
 
-RideStats is not on the Play Store. Sideload an APK from GitHub Releases.
+RideStats is not on the Play Store. Sideload the latest APK from GitHub Releases.
 
-| Version | APK | Notes |
-|--------|-----|-------|
-| **1.1.2** (latest) | [`RideStats-1.1.2.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.2) | Clearer force timeline labels — Up/down, Sides, Fwd/back |
-| **1.1.1** | [`RideStats-1.1.1.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.1) | Airtime accuracy fix — peak duration, fewer false positives at rest |
-| **1.1.0** | [`RideStats-1.1.0.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.0) | Directional G-forces, negative G, GPS speed, inversion count |
-| **1.0.0** | [`RideStats-1.0.0.apk`](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.0.0) | Original release — peak G logging and ride history |
+**[Download RideStats 1.1.2](https://github.com/MRJOHN5ON/RideStats/releases/tag/v1.1.2)** — file: `RideStats-1.1.2.apk`
+
+Need an older build? See **[all releases](https://github.com/MRJOHN5ON/RideStats/releases)**.
 
 **Install steps**
 
-1. Download **`RideStats-1.1.2.apk`** (latest) or an older version from the table above — release files are always named `RideStats-<version>.apk`
+1. Download **`RideStats-1.1.2.apk`** from the link above
 2. Open the file → **Install** (if blocked, allow installs from your browser or Files app in Android settings)
 3. Before your first ride: **Settings → Pocket Recording Setup** — allow notifications and unrestricted battery
 
@@ -67,67 +58,14 @@ Demo build — no warranty. G-force and speed readings are phone-sensor estimate
 
 ---
 
-## Release notes
-
-### v1.1.2
-
-**Clearer ride report**
+## What’s new in v1.1.2
 
 - Force timeline toggle uses plain labels — **Up/down**, **Sides**, **Fwd/back** instead of Vert/Lat/Long
 - Short description under the toggle explains what each view shows
 - Peak badges read naturally — e.g. **Heaviest 4.2G**, **Strongest sway ±2.1G**
 - Report stats renamed for clarity — **Lightest moment**, **Side sway peak**
 
-> **Upgrading from 1.1.1?** No data reset — install over your existing app.
-
----
-
-### v1.1.1
-
-**Airtime fixes**
-
-- **Peak airtime** is now the primary stat everywhere (report, share card, history badges) — e.g. **“2.4s airtime”** for the longest single stretch, not a moment count
-- Fixed **vertical G sign** so a phone sitting still reads ~**+1G** instead of falsely triggering airtime/ejector labels
-- **Stationary guard** — no airtime counted and sensation shows **“Normal”** when the phone isn’t moving
-- Retuned airtime thresholds for more reliable detection during actual ride forces
-
-> **Upgrading from 1.1.0?** G-force sign convention changed. Saved rides reset on first launch after install. Settings and the coaster catalog are kept.
-
----
-
-### v1.1.0
-
-**Sensor fusion & directional forces**
-
-- Accelerometer + gyroscope fusion during recording — pocket your phone normally; rider frame calibrates automatically at the start of each ride
-- **Vertical, lateral, and longitudinal G** with a timeline axis toggle on the ride report
-- **Negative G** and airtime detection on the vertical axis (e.g. floater hills, ejector moments)
-- **Inversion count** on the ride report (e.g. “4 inversions”)
-
-**Speed**
-
-- Optional **GPS peak speed** (toggle in Settings)
-- **Speed timeline** on the ride report when location is enabled
-
-**Everything else from v1.0** — catalog, history, share cards, ratings, local-only privacy
-
-> **Upgrading from 1.0?** v1.1 uses a new ride data format. Your saved rides will reset on first launch after install. Settings and the coaster catalog are kept.
-
----
-
-### v1.0.0
-
-**First public release**
-
-- Record rides in your pocket with foreground logging while the screen is locked
-- Live **peak G** and ride duration during recording
-- **Ride report** with peak, average, minimum G, airtime, and force timeline
-- Compare recorded peak G against **catalog reference estimates**
-- **History** grouped by coaster with personal records
-- **Share cards** — Performance and Reaction variants
-- Star ratings and ride notes
-- **Six Flags Magic Mountain** coaster catalog (14 coasters)
-- 100% **local storage** — no account, no cloud, no analytics
+> **Upgrading from 1.1.1?** No data reset — install over your existing app. Older release notes are on **[all releases](https://github.com/MRJOHN5ON/RideStats/releases)**.
 
 ---
 
